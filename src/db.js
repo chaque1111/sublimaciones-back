@@ -11,8 +11,8 @@ const sequelize =
         `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`,
         {logging: false, native: false}
       )
-    : new Sequelize("postgres", "postgres", "Tsubasa1234", {
-        host: "db-preventistas.ccwb3jesmh0z.us-east-1.rds.amazonaws.com",
+    : new Sequelize("postgres", "Deimos2", "sublimaciones1234-", {
+        host: "sublimacionesdb.ccigqsmdszrz.us-east-1.rds.amazonaws.com",
         port: 5432,
         logging: false,
         maxConcurrentQueries: 100,
