@@ -3,7 +3,7 @@ const {findOrCreateUser, getUser} = require("../controllers/users");
 
 const router = express();
 
-router.get("/:email", getUser);
-router.post("/", findOrCreateUser);
+router.put("/login", getUser);
+router.post("/create", findOrCreateUser);
 
 module.exports = router;

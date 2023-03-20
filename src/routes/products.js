@@ -8,6 +8,7 @@ const {
   createProduct,
   getOpcionesByCategory,
   getCarrouselDetail,
+  deleteProductById,
 } = require("../controllers/products");
 
 const router = express();
@@ -21,4 +22,5 @@ router.get("/color/:category", getColorsByCategory);
 router.get("/:id", getProductById);
 router.put("/filter", filterProducts);
 router.post("/create", createProduct);
+router.delete("/delete/:id", deleteProductById);
 module.exports = router;

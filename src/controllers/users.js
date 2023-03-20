@@ -2,15 +2,15 @@ const {User} = require("../db");
 
 const findOrCreateUser = async (req, res) => {
   try {
-    const {name, email, picture, updated_at} = req.body;
+    const {name, email, picture, updated_at, password} = req.body;
     const [user, created] = await User.findOrCreate({
       where: {email: email},
-      defaults: {name, email, image: picture, updated_at},
+      defaults: {name, email, image: picture, updated_at, password},
     });
     if (created) {
-      res.status(200).send("Cuenta creada correctamente!");
+      res.status(200).send(user);
     } else {
-      res.status(200).send(`Hola otra vez ${user.name}!`);
+      res.status(200).send(`Usted ya tiene una cuenta con éste correo`);
     }
   } catch (error) {
     res.status(200).send(error);
@@ -19,9 +19,21 @@ const findOrCreateUser = async (req, res) => {
 
 const getUser = async (req, res) => {
   try {
-    const {email} = req.params;
-    const user = await User.findOne({where: {email: email}});
-    res.status(200).json(user);
+    const {email, password} = req.body;
+    const user = (await User.findOne({where: {email: email}})) || null;
+
+    // if (!user) {
+    //   res.status(200).send("no existe la cuenta");
+    // }
+    if (!user) {
+      res.status(200).send("La cuenta no existe");
+    } else {
+      if (user.password !== password) {
+        res.status(200).send("La contraseña es incorrecta");
+      } else {
+        res.status(200).send(user);
+      }
+    }
   } catch (error) {
     res.status(400).send(error);
   }

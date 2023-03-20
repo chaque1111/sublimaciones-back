@@ -199,6 +199,16 @@ const createProduct = async (req, res) => {
     res.status(400).send(e);
   }
 };
+
+const deleteProductById = async (req, res) => {
+  try {
+    const {id} = req.params;
+    await Producto.destroy({where: {id: id}});
+    res.status(200).send("producto eliminado correctamente");
+  } catch (error) {
+    res.status(400).send(error);
+  }
+};
 module.exports = {
   getAllProducts,
   preloadProduct,
@@ -209,4 +219,5 @@ module.exports = {
   createProduct,
   getOpcionesByCategory,
   getCarrouselDetail,
+  deleteProductById,
 };

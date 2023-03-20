@@ -26,6 +26,10 @@ module.exports = (sequelize) => {
         type: DataTypes.DATE,
         allowNull: true,
       },
+      password: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
       favorites: {
         type: DataTypes.ARRAY(DataTypes.STRING),
         defaultValue: [],

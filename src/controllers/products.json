@@ -6,7 +6,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
   },
@@ -17,7 +17,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-550x550h.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-1-550x550h.jpg"
   },
@@ -28,7 +28,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
   },
@@ -39,165 +39,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-550x550h.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-1-550x550h.jpg"
-  },
-  {
-    "name": "Jarro sublimable cromolux verde 11oz",
-    "color": "verde",
-
-    "price": 119,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 6,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
-  },
-  {
-    "name": "Jarro glitter degrade plateado/ celeste",
-    "color": "celeste",
-    "price": 119,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 6,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-550x550h.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-1-550x550h.jpg"
-  },
-  {
-    "name": "Jarro Magico 50° Negro Sin Caja Individual",
-    "color": "negro",
-    "price": 75,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 3,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
-  },
-  {
-    "name": "Jarro sublimable cromolux manzana 11oz",
-    "color": "manzana",
-    "price": 119,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 3,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
-  },
-  {
-    "name": "Jarro sublimable cromolux verde 11oz",
-    "color": "verde",
-
-    "price": 119,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 6,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
-  },
-  {
-    "name": "Jarro Magico 50° Negro Sin Caja Individual",
-    "color": "negro",
-    "price": 75,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 3,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
-  },
-  {
-    "name": "Jarro sublimable cromolux manzana 11oz",
-    "color": "manzana",
-    "price": 119,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 3,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
-  },
-  {
-    "name": "Jarro sublimable cromolux verde 11oz",
-    "color": "verde",
-
-    "price": 119,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 6,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
-  },
-  {
-    "name": "Jarro Magico 50° Negro Sin Caja Individual",
-    "color": "negro",
-    "price": 75,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 3,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
-  },
-  {
-    "name": "Jarro sublimable cromolux manzana 11oz",
-    "color": "manzana",
-    "price": 119,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 3,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
-  },
-  {
-    "name": "Jarro sublimable cromolux verde 11oz",
-    "color": "verde",
-
-    "price": 119,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 6,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
-  },
-  {
-    "name": "Jarro Magico 50° Negro Sin Caja Individual",
-    "color": "negro",
-    "price": 75,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 3,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
-  },
-  {
-    "name": "Jarro sublimable cromolux manzana 11oz",
-    "color": "manzana",
-    "price": 119,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 3,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
-  },
-  {
-    "name": "Jarro glitter degrade plateado/ celeste",
-    "color": "celeste",
-    "price": 119,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 6,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-550x550h.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-1-550x550h.jpg"
   },
@@ -209,114 +51,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
-  },
-  {
-    "name": "Jarro Magico 50° Negro Sin Caja Individual",
-    "color": "negro",
-    "price": 75,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 3,
-    "capacity": "12 oz (325ml)",
-    "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
-  },
-  {
-    "name": "Jarro sublimable cromolux manzana 11oz",
-    "color": "manzana",
-    "price": 119,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 3,
-    "capacity": "15 oz (325ml)",
-    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
-  },
-  {
-    "name": "Jarro sublimable cromolux verde 11oz",
-    "color": "verde",
-
-    "price": 119,
-    "genre": "unisex",
-    "category": "jarros",
-    "capacity": "15 oz (325ml)",
-    "stock": 6,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
-  },
-  {
-    "name": "Jarro Magico 50° Negro Sin Caja Individual",
-    "color": "negro",
-    "price": 75,
-    "genre": "unisex",
-    "category": "jarros",
-    "capacity": "15 oz (325ml)",
-    "stock": 3,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
-  },
-  {
-    "name": "Jarro sublimable cromolux manzana 11oz",
-    "color": "manzana",
-    "price": 119,
-    "genre": "unisex",
-    "category": "jarros",
-    "capacity": "15 oz (325ml)",
-    "stock": 3,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
-  },
-  {
-    "name": "Jarro sublimable cromolux verde 11oz",
-    "color": "verde",
-
-    "price": 119,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 6,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
-  },
-  {
-    "name": "Jarro Magico 50° Negro Sin Caja Individual",
-    "color": "negro",
-    "price": 75,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 3,
-    "capacity": "25 oz (325ml)",
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
-  },
-  {
-    "name": "Jarro sublimable cromolux manzana 11oz",
-    "color": "manzana",
-    "price": 119,
-    "genre": "unisex",
-    "category": "jarros",
-    "capacity": "27 oz (325ml)",
-    "stock": 3,
-    "size": ["11 oz (325ml)"],
-    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
-    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
-  },
-  {
-    "name": "Jarro sublimable cromolux verde 11oz",
-    "color": "verde",
-
-    "price": 119,
-    "genre": "unisex",
-    "category": "jarros",
-    "stock": 6,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
   },
@@ -327,7 +62,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-550x550h.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-1-550x550h.jpg"
   },
@@ -338,7 +73,272 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
+  },
+  {
+    "name": "Jarro sublimable cromolux manzana 11oz",
+    "color": "manzana",
+    "price": 119,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 3,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
+  },
+  {
+    "name": "Jarro sublimable cromolux verde 11oz",
+    "color": "verde",
+
+    "price": 119,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 6,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
+  },
+  {
+    "name": "Jarro Magico 50° Negro Sin Caja Individual",
+    "color": "negro",
+    "price": 75,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 3,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
+  },
+  {
+    "name": "Jarro sublimable cromolux manzana 11oz",
+    "color": "manzana",
+    "price": 119,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 3,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
+  },
+  {
+    "name": "Jarro sublimable cromolux verde 11oz",
+    "color": "verde",
+
+    "price": 119,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 6,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
+  },
+  {
+    "name": "Jarro Magico 50° Negro Sin Caja Individual",
+    "color": "negro",
+    "price": 75,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 3,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
+  },
+  {
+    "name": "Jarro sublimable cromolux manzana 11oz",
+    "color": "manzana",
+    "price": 119,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 3,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
+  },
+  {
+    "name": "Jarro sublimable cromolux verde 11oz",
+    "color": "verde",
+
+    "price": 119,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 6,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
+  },
+  {
+    "name": "Jarro Magico 50° Negro Sin Caja Individual",
+    "color": "negro",
+    "price": 75,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 3,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
+  },
+  {
+    "name": "Jarro sublimable cromolux manzana 11oz",
+    "color": "manzana",
+    "price": 119,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 3,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
+  },
+  {
+    "name": "Jarro glitter degrade plateado/ celeste",
+    "color": "celeste",
+    "price": 119,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 6,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-550x550h.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-1-550x550h.jpg"
+  },
+  {
+    "name": "Jarro sublimable cromolux verde 11oz",
+    "color": "verde",
+
+    "price": 119,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 6,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
+  },
+  {
+    "name": "Jarro Magico 50° Negro Sin Caja Individual",
+    "color": "negro",
+    "price": 75,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 3,
+    "capacity": "12 oz",
+    "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
+  },
+  {
+    "name": "Jarro sublimable cromolux manzana 11oz",
+    "color": "manzana",
+    "price": 119,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 3,
+    "capacity": "15 oz",
+    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
+  },
+  {
+    "name": "Jarro sublimable cromolux verde 11oz",
+    "color": "verde",
+
+    "price": 119,
+    "genre": "unisex",
+    "category": "jarros",
+    "capacity": "15 oz",
+    "stock": 6,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
+  },
+  {
+    "name": "Jarro Magico 50° Negro Sin Caja Individual",
+    "color": "negro",
+    "price": 75,
+    "genre": "unisex",
+    "category": "jarros",
+    "capacity": "15 oz",
+    "stock": 3,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
+  },
+  {
+    "name": "Jarro sublimable cromolux manzana 11oz",
+    "color": "manzana",
+    "price": 119,
+    "genre": "unisex",
+    "category": "jarros",
+    "capacity": "15 oz",
+    "stock": 3,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
+  },
+  {
+    "name": "Jarro sublimable cromolux verde 11oz",
+    "color": "verde",
+
+    "price": 119,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 6,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
+  },
+  {
+    "name": "Jarro Magico 50° Negro Sin Caja Individual",
+    "color": "negro",
+    "price": 75,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 3,
+    "capacity": "25 oz",
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
+  },
+  {
+    "name": "Jarro sublimable cromolux manzana 11oz",
+    "color": "manzana",
+    "price": 119,
+    "genre": "unisex",
+    "category": "jarros",
+    "capacity": "27 oz",
+    "stock": 3,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
+  },
+  {
+    "name": "Jarro sublimable cromolux verde 11oz",
+    "color": "verde",
+
+    "price": 119,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 6,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
+  },
+  {
+    "name": "Jarro glitter degrade plateado/ celeste",
+    "color": "celeste",
+    "price": 119,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 6,
+    "size": ["11 oz"],
+    "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-550x550h.jpg",
+    "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-1-550x550h.jpg"
+  },
+  {
+    "name": "Jarro Magico 50° Negro Sin Caja Individual",
+    "color": "negro",
+    "price": 75,
+    "genre": "unisex",
+    "category": "jarros",
+    "stock": 3,
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
   },
@@ -349,7 +349,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-550x550h.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-1-550x550h.jpg"
   },
@@ -360,7 +360,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
   },
@@ -372,7 +372,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
   },
@@ -383,7 +383,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
   },
@@ -394,7 +394,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
   },
@@ -406,7 +406,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
   },
@@ -417,7 +417,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
   },
@@ -428,7 +428,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
   },
@@ -440,7 +440,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
   },
@@ -451,7 +451,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
   },
@@ -462,7 +462,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
   },
@@ -474,7 +474,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
   },
@@ -485,7 +485,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
   },
@@ -496,7 +496,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
   },
@@ -508,7 +508,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
   },
@@ -519,7 +519,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
   },
@@ -530,7 +530,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
   },
@@ -542,7 +542,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
   },
@@ -553,7 +553,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
   },
@@ -564,7 +564,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
   },
@@ -576,7 +576,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
   },
@@ -587,7 +587,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
   },
@@ -598,7 +598,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
   },
@@ -610,7 +610,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
   },
@@ -621,7 +621,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
   },
@@ -632,7 +632,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
   },
@@ -644,7 +644,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-08-1-550x550.jpg"
   },
@@ -655,7 +655,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache//aadiser/productos/SU-JM-SC-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-JM-SC-2-550x550.jpg"
   },
@@ -666,7 +666,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
   },
@@ -677,7 +677,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz (325ml)"],
+    "size": ["11 oz"],
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-550x550h.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-1-550x550h.jpg"
   }
