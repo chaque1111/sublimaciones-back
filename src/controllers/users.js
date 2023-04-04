@@ -22,9 +22,6 @@ const getUser = async (req, res) => {
     const {email, password} = req.body;
     const user = (await User.findOne({where: {email: email}})) || null;
 
-    // if (!user) {
-    //   res.status(200).send("no existe la cuenta");
-    // }
     if (!user) {
       res.status(200).send("La cuenta no existe");
     } else {
@@ -39,7 +36,23 @@ const getUser = async (req, res) => {
   }
 };
 
+const deleteUser = async (req, res) => {
+  try {
+    const obj = req.body;
+    await User.destroy({where: {email: obj.email}});
+    res.status(200).send("Cuenta Borrada Correctamente");
+  } catch (error) {
+    res.status(400).send(error);
+  }
+};
+
+// const addFavorite = async (req, res) => {
+//   const email = req.body.email;
+//   const productId = req.body.productId;
+
+// };
 module.exports = {
   findOrCreateUser,
   getUser,
+  deleteUser,
 };

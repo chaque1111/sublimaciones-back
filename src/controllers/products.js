@@ -1,86 +1,192 @@
-const {Producto} = require("../db.js");
+const {Jarro, Indumentaria} = require("../db.js");
 const json = require("./products.json");
 
 const preloadProduct = async () => {
   let allProducts = json;
-  await Producto.bulkCreate(allProducts);
+  await Jarro.bulkCreate(allProducts);
   //   for (let i = 0; i < allProducts.length; i++) {
-  //     await Producto.findOrCreate({
+  //     await Jarro.findOrCreate({
   //       where: {name: allProducts[i].name},
   //       defaults: {...allProducts[i]},
   //     });
   //   }
 };
 
-const getAllProducts = async (req, res) => {
+const getProductsByCategory = async (req, res) => {
   try {
-    const name = req.params.name;
-    const allProducts = await Producto.findAll({
-      attributes: ["id", "name", "image", "image2", "category", "price"],
-    });
-    if (name) {
+    const category = req.params.categoria;
+    if (category === "jarros") {
+      const jarros = await Jarro.findAll({
+        attributes: [
+          "id",
+          "name",
+          "image",
+          "image2",
+          "category",
+          "price",
+          "color",
+          "capacity",
+        ],
+      });
+      jarros.length
+        ? res.status(200).send(jarros)
+        : res.status(200).send("algo salió mal");
+    }
+    console.log(category);
+    if (category === "indumentaria") {
+      const products = await Indumentaria.findAll({
+        attributes: [
+          "id",
+          "name",
+          "image",
+          "image2",
+          "category",
+          "price",
+          "color",
+          "size",
+        ],
+      });
+      products.length
+        ? res.status(200).send(products)
+        : res.status(200).send("algo salió mal");
+    } else if (!category) {
+      const jarros = await Jarro.findAll({
+        attributes: [
+          "id",
+          "name",
+          "image",
+          "image2",
+          "category",
+          "price",
+          "color",
+          "capacity",
+        ],
+      });
+      const indumentaria = await Indumentaria.findAll({
+        attributes: [
+          "id",
+          "name",
+          "image",
+          "image2",
+          "category",
+          "price",
+          "color",
+          "size",
+        ],
+      });
+      let products = jarros.concat(indumentaria);
+      products.length
+        ? res.status(200).send(products)
+        : res.status(200).send("algo salió mal");
+    }
+  } catch (error) {
+    res.status(400).send(error);
+  }
+};
+const searchProductByName = async (req, res) => {
+  try {
+    const {name, category} = req.body;
+
+    if (!category) {
+      const allJarros = await Jarro.findAll({
+        attributes: [
+          "id",
+          "name",
+          "image",
+          "image2",
+          "category",
+          // "capacity",
+          "price",
+          "color",
+        ],
+      });
+      const allIndumentary = await Indumentaria.findAll({
+        attributes: [
+          "id",
+          "name",
+          "image",
+          "image2",
+          "category",
+          // "size",
+          "price",
+          "color",
+        ],
+      });
+      const allProducts = allJarros.concat(allIndumentary);
       let productByName = await allProducts.filter((e) =>
         e.name.toUpperCase().includes(name.toUpperCase())
       );
       productByName.length
         ? res.status(200).send(productByName)
         : res.status(200).send("No se encontraron councidencias");
-    } else {
-      allProducts.length
-        ? res.status(200).send(allProducts)
-        : res.status(300).send("algo salió mal");
+    }
+
+    if (category) {
+      if (category == "jarros") {
+        let jarros = await Jarro.findAll({
+          attributes: [
+            "id",
+            "name",
+            "image",
+            "image2",
+            "category",
+            "capacity",
+            "price",
+            "color",
+          ],
+        });
+        let productByName = await jarros.filter((e) =>
+          e.name.toUpperCase().includes(name.toUpperCase())
+        );
+        productByName.length
+          ? res.status(200).send(productByName)
+          : res.status(200).send("No se encontraron councidencias");
+      }
+      if (category == "indumentaria") {
+        let indumentaria = await Indumentaria.findAll({
+          attributes: [
+            "id",
+            "name",
+            "image",
+            "image2",
+            "category",
+            "size",
+            "price",
+            "color",
+          ],
+        });
+        let productByName = await indumentaria.filter((e) =>
+          e.name.toUpperCase().includes(name.toUpperCase())
+        );
+        productByName.length
+          ? res.status(200).send(productByName)
+          : res.status(200).send("No se encontraron councidencias");
+      }
     }
   } catch (e) {
     res.status(400).send(e);
-  }
-};
-const getAllSizesByCategory = async (req, res) => {
-  try {
-    const category = req.params.category;
-    const sizesByCategory = await Producto.findAll({
-      where: {category: category},
-      attributes: ["capacity"],
-    });
-    const arrayForSize = [];
-    sizesByCategory.map((e) =>
-      e.capacity && !arrayForSize.includes(e.capacity)
-        ? arrayForSize.push(e.capacity)
-        : e.capacity
-    );
-    res.status(200).send(arrayForSize);
-  } catch (error) {
-    res.status(400).send(error);
-  }
-};
-
-const getColorsByCategory = async (req, res) => {
-  try {
-    const {category} = req.params;
-
-    const colors = await Producto.findAll({
-      where: {category: category},
-      attributes: ["color"],
-    });
-    const arrayForColor = [];
-    colors.map((e) =>
-      e.color && !arrayForColor.includes(e.color)
-        ? arrayForColor.push(e.color)
-        : e.color
-    );
-    res.status(200).send(arrayForColor);
-  } catch (error) {
-    res.status(404).send(e);
   }
 };
 
 const getProductById = async (req, res) => {
   try {
     const id = req.params.id;
-    const product = await Producto.findByPk(id);
-    if (product) {
-      res.status(200).send(product);
+    if (id.length < 13) {
+      const product = await Jarro.findByPk(id);
+      if (product) {
+        res.status(200).send(product);
+      } else {
+        res.status(200).send(product);
+      }
     } else {
-      res.status(300).send("Producto no encontrado");
+      {
+        const product = await Indumentaria.findByPk(id);
+        if (product) {
+          res.status(200).send(product);
+        } else {
+          res.status(200).send(product);
+        }
+      }
     }
   } catch (error) {
     res.status(400).send(error);
@@ -89,23 +195,65 @@ const getProductById = async (req, res) => {
 const getOpcionesByCategory = async (req, res) => {
   try {
     const id = req.params.id;
-    const product = await Producto.findByPk(id);
+    if (id.length <= 4) {
+      const jarros = await Jarro.findAll({
+        attributes: ["name", "image", "id"],
+      });
+      if (jarros.length >= 6) {
+        let product = await Jarro.findByPk(id);
+        let options = jarros.filter((e) => e.id != id);
+        let arrayOpt = options.sort(function () {
+          return Math.random() - 0.5;
+        });
+        let sliceOpt = arrayOpt.slice(0, 5);
+        sliceOpt.push({
+          id: product.id,
+          name: product.name,
+          image: product.image,
+        });
 
-    const options = await Producto.findAll({
-      where: {
-        category: product.category,
-      },
-      attributes: ["name", "image", "id"],
-    });
-    let arrayOpt = options
-      .sort(function () {
-        return Math.random() - 0.5;
-      })
-      .filter((e) => e.id !== product.id);
-    let sliceOpt = arrayOpt.slice(0, 5);
-    sliceOpt.push({id: product.id, name: product.name, image: product.image});
+        res.status(200).send(sliceOpt.reverse());
+      } else {
+        let product = await Jarro.findByPk(id, {
+          attributes: ["name", "image", "id"],
+        });
+        let arrayOpt = jarros.filter((e) => e.id != product.id);
+        arrayOpt = arrayOpt.sort(function () {
+          return Math.random() - 0.5;
+        });
+        arrayOpt.push(product);
+        res.status(200).send(arrayOpt.reverse());
+      }
+    } else {
+      const indumentaria = await Indumentaria.findAll({
+        attributes: ["image", "name", "id"],
+      });
 
-    res.status(200).send(sliceOpt.reverse());
+      if (indumentaria.length >= 6) {
+        const product = await Indumentaria.findByPk(id, {
+          attributes: ["name", "image", "id"],
+        });
+
+        let arrayOpt = indumentaria.filter((e) => e.id != id);
+        arrayOpt = arrayOpt.sort(function () {
+          return Math.random() - 0.5;
+        });
+        arrayOpt = arrayOpt.slice(0, 5);
+        arrayOpt.push(product);
+        res.status(200).send(arrayOpt.reverse());
+      } else {
+        const product = await Indumentaria.findByPk(id, {
+          attributes: ["name", "image", "id"],
+        });
+        let arrayOpt = indumentaria.filter((e) => e.id != product.id);
+
+        arrayOpt = arrayOpt.sort(function () {
+          return Math.random() - 0.5;
+        });
+        arrayOpt.push(product);
+        res.status(200).send(arrayOpt.reverse());
+      }
+    }
   } catch (e) {
     res.status(400).send(e);
   }
@@ -113,7 +261,7 @@ const getOpcionesByCategory = async (req, res) => {
 
 const getCarrouselDetail = async (req, res) => {
   try {
-    const productsRandoms = await Producto.findAll({
+    const productsRandoms = await Jarro.findAll({
       attributes: ["id", "image", "name"],
     });
     res.status(200).send(
@@ -123,43 +271,6 @@ const getCarrouselDetail = async (req, res) => {
     );
   } catch (error) {
     res.status(400).send(error);
-  }
-};
-const filterProducts = async (req, res) => {
-  try {
-    const obj = req.body;
-    const color = obj.color ? obj.color.toLowerCase() : null;
-    const sizes = obj.sizes ? obj.sizes : null;
-
-    if (color && !sizes) {
-      const products = await Producto.findAll({
-        where: {color: color},
-        attributes: ["id", "name", "image", "image2", "category", "price"],
-      });
-      products.length
-        ? res.status(200).send(products)
-        : res.status(300).send("No encontrado");
-    }
-    if (sizes && !color) {
-      const products = await Producto.findAll({
-        where: {capacity: sizes},
-        attributes: ["id", "name", "image", "image2", "category", "price"],
-      });
-      products.length
-        ? res.status(200).send(products)
-        : res.status(300).send("No encontrado");
-    }
-    if (sizes && color) {
-      const products = await Producto.findAll({
-        where: {capacity: sizes, color: color},
-        attributes: ["id", "name", "image", "image2", "category", "price"],
-      });
-      products.length
-        ? res.status(200).send(products)
-        : res.status(300).send("No encontrado");
-    }
-  } catch (e) {
-    res.send(e);
   }
 };
 
@@ -174,50 +285,95 @@ const createProduct = async (req, res) => {
       capacity,
       description,
       price,
+      sizes,
     } = req.body;
-
-    const [product, isCreated] = await Producto.findOrCreate({
-      where: {name: name},
-      defaults: {
-        name,
-        category,
-        image: image1,
-        image2,
-        color,
-        capacity,
-        description,
-        price,
-      },
-    });
-
-    if (isCreated) {
-      res.status(200).send("El producto fué creado correctamente");
+    if (category === "jarros") {
+      const [product, isCreated] = await Jarro.findOrCreate({
+        where: {name: name},
+        defaults: {
+          name,
+          category,
+          image: image1,
+          image2: image2 ? image2 : null,
+          color,
+          capacity,
+          description,
+          price,
+          sizes,
+        },
+      });
+      if (isCreated) {
+        res.status(200).send("El producto fué creado correctamente");
+      } else {
+        res.status(200).send("Ya existe un Producto con ese nombre");
+      }
     } else {
-      res.status(200).send("Ya existe un producto con ese nombre");
+      console.log(sizes);
+      const [product, isCreated] = await Indumentaria.findOrCreate({
+        where: {name: name},
+        defaults: {
+          name,
+          category,
+          image: image1,
+          image2: image2 ? image2 : null,
+          color,
+          size: sizes,
+          description,
+          price,
+        },
+      });
+      if (isCreated) {
+        res.status(200).send("El producto fué creado correctamente");
+      } else {
+        res.status(200).send("Ya existe un Producto con ese nombre");
+      }
     }
   } catch (e) {
-    res.status(400).send(e);
+    console.log(e);
   }
 };
+const putProductById = async (req, res) => {
+  try {
+    const {id, name, category, capacity, description, image, image2, price} =
+      req.body;
 
+    await Jarro.update(
+      {
+        name: name,
+        category: category,
+        capacity,
+        capacity,
+        description: description,
+        image: image,
+        image2: image2,
+        price: price,
+      },
+      {where: {id: id}}
+    );
+
+    res.status(200).send("Producto editado correctamente");
+  } catch (error) {
+    res.status(400).send(error);
+  }
+};
 const deleteProductById = async (req, res) => {
   try {
     const {id} = req.params;
-    await Producto.destroy({where: {id: id}});
-    res.status(200).send("producto eliminado correctamente");
+    await Jarro.destroy({where: {id: id}});
+    res.status(200).send("Producto eliminado correctamente");
   } catch (error) {
     res.status(400).send(error);
   }
 };
 module.exports = {
-  getAllProducts,
+  searchProductByName,
   preloadProduct,
   getProductById,
-  getAllSizesByCategory,
-  filterProducts,
-  getColorsByCategory,
+
   createProduct,
   getOpcionesByCategory,
   getCarrouselDetail,
   deleteProductById,
+  putProductById,
+  getProductsByCategory,
 };

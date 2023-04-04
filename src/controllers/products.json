@@ -327,7 +327,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz"],
+    "capacity": "12",
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-550x550h.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-1-550x550h.jpg"
   },
@@ -349,7 +349,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 6,
-    "size": ["11 oz"],
+    "capacity": "12 oz",
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-550x550h.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MG-G-1418-1-550x550h.jpg"
   },
@@ -360,7 +360,7 @@
     "genre": "unisex",
     "category": "jarros",
     "stock": 3,
-    "size": ["11 oz"],
+
     "image": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-2-550x550.jpg",
     "image2": "https://disershop.com.uy/cache/aadiser/productos/SU-MGCH-20-1-550x550.jpg"
   },
